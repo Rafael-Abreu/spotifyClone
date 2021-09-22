@@ -5,3 +5,29 @@ body {
               linear-gradient(50deg, #ff4169, #7c26f8);
   background-attachment: fixed;
 }
+
+/* Barra de Navegação */
+
+nav.navbar-transparent {
+  background: rgba(0,0,0,0.6);
+  padding: 15px 0;
+}
+
+.navbar-light .navbar-nav .nav-link { /* Sobrescrevendo cor da letra no menu */
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover { /* Sobrescrevendo cor da letra no menu */
+  color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler { /* Sobrescrevendo cor da borda no menu responsivo */
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.2);
+}
+
+.divisor {
+  width: 1px;
+  background: #fff;
+  margin: 11px 15px;
+}
